@@ -3,15 +3,18 @@
     margin: 0px;
 }
 
-.breakpointImage {
+.breakpointImageContainer  {
     display: flex;
-    width: 300px;
-    height: 300px;
     justify-content: center;
     align-items: center;
+}
+
+.breakpointImage {
+    width: 328px;
+    height: 340px;
     color:black;
     background-image: url(phone.png);
-    object-fit: scale-down;
+    background-position: center;
 }
 
 /* Medium devices (tablets, 768px and up) */
